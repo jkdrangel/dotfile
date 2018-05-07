@@ -1,0 +1,9 @@
+{
+    "explorer.openEditors.visible": 0,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "git.enableSmartCommit": true
+}
