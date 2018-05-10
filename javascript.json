@@ -6,7 +6,7 @@
 			"\tsuper(props);",
 			"\tthis.state = {",
 			"\t\t$1",
-			"\t}",
+			"\t};",
 			"}"
 		]
 	},
