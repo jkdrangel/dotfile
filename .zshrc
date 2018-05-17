@@ -125,6 +125,14 @@ alias gtm='gt commit -m $*'
 alias gtps='gt push $*'
 alias gtpu='gt pull $*'
 alias gtsync='gtpu && gtps $*'
+alias ginit="git commit -m \":tada: "
+alias glip="git commit -m \":lipstick: "
+alias gbug="git commit -m \":bug: "
+alias gzap="git commit -m \":zap: "
+alias gart="git commit -m \":art: "
+alias gdoc="git commit -m \":memo: "
+alias grecycle="git commit -m \":recycle: "
+alias gfeature="git commit -m \"::sparkles:: "
 #React-native
 alias rn='react-native $*'
 alias rnra='rn run-android $*'
