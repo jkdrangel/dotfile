@@ -136,8 +136,11 @@ alias gfeature="git commit -m \"::sparkles:: "
 #React-native
 alias rn='react-native $*'
 alias rnra='rn run-android $*'
+alias rnri='rn run-ios $*'
+alias rnla='rn log-android'
 alias rnclear='cd android && ./gradlew clean && cd ..'
 alias rns='rn start'
+alias sk='adb shell input keyevent 82'
 alias watclear='watchman watch-del .; watchman watch-project .; rns'
 #Git Flow
 alias gf='git flow $*'
@@ -155,6 +158,10 @@ alias gfhstart='gf hotfix start $*'
 alias gfhfinish='gf hotfix finish $*'
 alias gfhpublish='gf hotfix publish $*'
 alias gfhpull='gf hotfix pull $*'
+alias gfbstart='gf bugfix start $*'
+alias gfbfinish='gf bugfix finish $*'
+alias gfbpublish='gf bugfix publish $*'
+alias gfbpull='gf bugfix pull $*'
 #Firebase
 alias fb='firebase $*'
 alias fbls='fb list $*'
