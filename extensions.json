@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "CoenraadS.bracket-pair-colorizer",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-close-tag",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+    "anjali.clipboard-history",
+    "streetsidesoftware.code-spell-checker",
+    "mikestead.dotenv",
+    "eamodio.gitlens",
+    "richie5um2.vscode-sort-json",
+    "wayou.vscode-todo-highlight",
+    
+  ]
+}
