@@ -15,5 +15,17 @@
 		"body": [
 			"style={styles.$1}"
 		]
+	},
+	"console": {
+		"prefix": "clg",
+		"body": [
+			"console.log(${0})"
+		]
+	},
+	"console-labeled": {
+		"prefix": "cll",
+		"body": [
+			"console.log('${0}', ${0})"
+		]
 	}
 }
