@@ -146,6 +146,7 @@ alias rnla='rn log-android'
 alias rnclear='cd android && ./gradlew clean && cd ..'
 alias rns='rn start'
 alias sk='adb shell input keyevent 82'
+alias reverse='adb reverse tcp:8081 tcp:8081'
 alias watclear='watchman watch-del .; watchman watch-project .; rns'
 #Git Flow
 alias gf='git flow $*'
