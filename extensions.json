@@ -1,15 +1,19 @@
 {
   "recommendations": [
     "CoenraadS.bracket-pair-colorizer",
-    "dbaeumer.vscode-eslint",
-    "formulahendry.auto-close-tag",
-    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
     "anjali.clipboard-history",
-    "streetsidesoftware.code-spell-checker",
-    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
+    "formulahendry.auto-close-tag",
+    "gruntfuggly.todo-tree",
+    "joelday.docthis",
+    "mikestead.dotenv",
+    "ms-python.python",
     "richie5um2.vscode-sort-json",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+    "tyriar.sort-lines",
+    "wakatime.vscode-wakatime"
     "wayou.vscode-todo-highlight",
-    
   ]
 }
