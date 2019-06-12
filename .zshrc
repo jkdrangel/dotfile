@@ -65,6 +65,7 @@ plugins=(
   npm
   pip
   python
+  wakatime
   yarn
 )
 
@@ -99,9 +100,22 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+# Active IZI CLI. https://github.com/jkdrangel/izi
+# IZI_CLI=$HOME/.izi/cli
+#. $IZI_CLI/master.sh
+# Active a2s cli
+#alias a2s='~/Documentos/projects/a2s-cli/a2s-cli.sh $*'
+
+# open new terminal in same dir
+PROMPT_COMMAND='pwd > "${HOME}/.cwd"'
+[[ -f "${HOME}/.cwd" ]] && cd "$(< ${HOME}/.cwd)"
+
+#initialize Z (https://github.com/rupa/z) 
+#. ~/z.sh 
+
 alias cd..='cd ..'
 alias gti='git $*'
-alias a2s='/home/app2sales/Documentos/projects/a2s-cli/a2s-cli.sh $*'
 alias s='sudo $*'
 alias n='nautilus .'
 alias le='less $*'
@@ -198,3 +212,4 @@ alias fbcfgclone='fb functions:config:clone $*'
 alias fbcfgget='fb functions:config:get $*'
 alias fbcfgset='fb functions:config:set $*'
 alias fbcfgunset='fb functions:config:unset $*'
+alias vs='code . --disable-gpu'
