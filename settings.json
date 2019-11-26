@@ -5,5 +5,9 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "eslint.quiet": true,
+    "editor.minimap.maxColumn": 60,
     "git.enableSmartCommit": true
 }
