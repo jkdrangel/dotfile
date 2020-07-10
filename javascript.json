@@ -22,10 +22,57 @@
 			"console.log(${0})"
 		]
 	},
+	"tron": {
+		"prefix": "tron",
+		"body": [
+			"console.tron.logImportant('===============${0}===============', ${0})"
+		]
+	},
+	"warn": {
+		"prefix": "warn",
+		"body": [
+			"console.warn('===============${0}===============', ${0})"
+		]
+	},
 	"console-labeled": {
 		"prefix": "cll",
 		"body": [
-			"console.log('${0}', ${0})"
+			"console.log('===============${0}===============', ${0})"
+		]
+	},
+	"snapshot-test": {
+		"prefix": "snap",
+		"body": [
+			"import React from 'react';",
+			"import { shallow } from 'enzyme';",
+			"import toJson from 'enzyme-to-json';",
+			"\n",
+			"import { ${0} } from './${0}';",
+			"\n",
+			"describe('component: ${0}', () => {",
+			"\tit('matches the snapshot', () => {",
+			"\t\tconst tree = shallow(<${0} {...props} />);",
+			"\n",
+			"\t\texpect(toJson(tree)).toMatchSnapshot();",
+			"\t});",
+			"});"
+		]
+	},
+	"jest-test": {
+		"prefix": "itt",
+		"body": [
+			"\tit('${0}', async () => {",
+				"\t\t//given",
+				"\t\tconst component = build();",
+				"\t\tconst expected = ${1};",
+				"\t\tconst instance = await component.instance();",
+			"\n",
+				"\t\t//when",
+				"\t\tconst result = instance.${2}();",
+				"\n",
+				"\t\t//then",
+				"\t\texpect(result).toEqual(expected);",
+			  "});"
 		]
 	}
 }
