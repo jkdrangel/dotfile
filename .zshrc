@@ -127,6 +127,12 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
+alias apt-get='sudo apt-get $*'
+alias apti='apt-get install $*'
+alias home='cd ~'
+alias reboot='sudo shutdown -r now'
+alias update='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+alias hs='history | grep'
 #PATH
 export JAVA_HOME=/opt/jdk1.8.0
 export ANDROID_HOME=$HOME/Android/Sdk
